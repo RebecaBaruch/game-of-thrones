@@ -6,7 +6,7 @@ export const MenuContainer = styled.ul<HiddenMenuProps>`
     justify-content: center;
     flex-direction: column;
     gap: 43px;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
 
