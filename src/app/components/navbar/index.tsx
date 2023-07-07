@@ -20,7 +20,7 @@ export default function Navbar(): JSX.Element{
 
     return(
         <NavWrapper>
-            <NavLink href='#'>
+            <NavLink href='https://www.hbomax.com/br/pt/series/urn:hbo:series:GVU2cggagzYNJjhsJATwo'>
                 <Image src={HboLogo} alt='hbo-link' className='hbo-logo'/>
             </NavLink>
             <LinkContainer  className='navbarBtn'>

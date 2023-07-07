@@ -2,3 +2,28 @@
   height: fit-content;
   background: #111113;
 }
+
+.subtitle{
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.mainContent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  /* position: relative; */
+
+  z-index: 1;
+}
+
+.socialLinks{
+  position: absolute;
+  bottom: 13%;
+
+  z-index: 0;
+  /* padding-top: 133px; */
+}

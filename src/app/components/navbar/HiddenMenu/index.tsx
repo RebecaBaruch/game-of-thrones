@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import { LiItem, MenuContainer } from "./styled";
 import NavLink from "../NavLink";
-import SocialLinks from "../../SocialLinks";
+import SocialLinks from "../../SocialLink";
 
 import Underline from '../../../../../public/images/medievalUnderline.svg';
 import { HiddenMenuProps } from "@/interfaces/props";

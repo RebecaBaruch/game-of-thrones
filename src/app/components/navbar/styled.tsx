@@ -5,7 +5,7 @@ export const NavWrapper = styled.nav`
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  position: fixed;
+  position: absolute;
   padding: 0 10%;
   width: 100%;
 `;

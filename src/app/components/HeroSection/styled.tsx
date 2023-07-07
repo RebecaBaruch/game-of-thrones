@@ -16,5 +16,6 @@ export const MainContent = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 33px;
     color: white;
 `
