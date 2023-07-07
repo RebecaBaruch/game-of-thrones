@@ -6,7 +6,7 @@ import Head from './head';
 
 import Navbar from './components/navbar';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 // export const metadata = {
 //   title: 'GOT',

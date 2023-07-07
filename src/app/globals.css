@@ -20,3 +20,32 @@ body{
 .link-style{
   text-decoration: none;
 }
+
+.navbarBtn{
+  display: none;
+  position: relative;
+}
+
+/* hidden menu */
+.menuButton{
+  display: flex;
+}
+
+.hiddenMenu {
+  transform: translateX(-100%);
+}
+
+.hiddenMenu.open {
+  transform: translateX(0);
+}
+
+
+@media (min-width: 600px){
+  .navbarBtn{
+    display: flex;
+  }
+
+  .menuButton{
+    display: none;
+  }
+}

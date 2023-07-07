@@ -6,11 +6,12 @@ export const NavWrapper = styled.nav`
   flex-direction: row;
   align-items: center;
   position: fixed;
-  width: 80%;
+  padding: 0 10%;
+  width: 100%;
 `;
 
 export const LinkContainer = styled.div`
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   flex-direction: row;
   gap: 33px;
